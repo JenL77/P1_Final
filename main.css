@@ -1,0 +1,135 @@
+@font-face {
+  src: url(fonts/bohemian_soul-webfont.woff2) format('woff2'),
+    url(fonts/bohemian_soul-webfont.woff) format('woff');
+  font-family: soul;
+}
+
+.box div {
+  width: 100px;
+  height: 50px;
+  background-image: url(portaltxt.png);
+  background-repeat: no-repeat;
+}
+h1 {
+  font-family: soul;
+  font-size: 5rem;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 1px 1px 1px purple,
+    2px 2px 1px purple;
+  margin: .5em 0 .25em;
+  padding-left: 15px;
+}
+
+div {
+  width: 740px;
+  height: 350px;
+  background-color: rgb(173, 188, 230);
+}
+
+p {
+  margin: 100;
+  padding: 15px;
+}
+
+body {
+  background-image: url(images/blkflwer.png);
+    background-color: rgb(173, 188, 230);
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  font: 1em/1.2 Arial, Helvetica, sans-serif
+}
+
+.wrapper {
+  background-color: rgb(173, 188, 230);
+  padding: 20px 20px;
+  color: #fff;
+  display: flow-root;
+  width: 700px;
+  height: 250px;
+}
+
+.box {
+  float: left;
+  margin-left: 0px;
+  width: 100px;
+  height: 50px;
+  border-radius: 400px;
+  background-color: rgb(245, 245, 220);
+  padding: 2em;
+  font-size: 2.5rem;
+}
+
+p {
+  text-align: center;
+  margin: 50;
+  padding: 5px 20px;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-family: soul;
+  text-shadow: 1px 1px 1px purple;
+  2px 2px 1px black;
+  padding: 5px 50px 10px;
+  ] margin: 2;
+  padding-center: 15px;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h3 {
+  font-family: soul;
+  text-align: center;
+  text-shadow: 1px 1px 1px red,
+    2px 2px 1px black;
+  padding: 10px 50px 20px;
+  ] margin: 2;
+  padding-center: 15px;
+  font-size: 3rem;
+}
+
+.block,
+li {
+  text-align: center;
+  border: 5px solid rebeccapurple;
+  border-radius: 2em;
+  background-color: lightgray;
+  padding: 1.5em;
+}
+
+ul {
+  display: inline;
+  list-style: none;
+  padding-left: 200px 200px;
+}
+
+ol {
+  display: inline;
+  list-style: none;
+  padding-left: 200px 200px;
+}
+
+.inline {
+  display: inline;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.images-blkflwer.png{
+Width: 300px;
+height:350px;
+background-image: url(images/blkflwer.png);
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: black;
+    color: #fff;
+}
